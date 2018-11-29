@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="css/fullpage.min.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+
+		<!-- 다음 줄은 선택사항으로 'css3:false' 사용할 경우 'linear','swing', 'easeInOutCubic' 사용시 필요함 -->
+		<script src="js/easings.min.js"></script>
+		<!-- 다음 줄은 플러그옵션 `scrollOverflow:true` 사용시 필요함. -->
+		<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+    </head>
+
+<body>
+
+<!--fullpage-->
+	<div id="fullpage">
+		<div class="section">Some section</div>
+		<div class="section">Some section2</div>
+		<div class="section">Some section3</div>
+		<div class="section">Some section4</div>
+	</div>
+<!--fullpage-->
+
+
+<script type="text/javascript" src="js/fullpage.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+	$('#fullpage').fullpage({
+		verticalCentered: false});
+	});
+
+</script>
+
+</body>
+</html>
